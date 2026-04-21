@@ -1,5 +1,10 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Project Path="ExamExamplesRepo.AppHost/ExamExamplesRepo.AppHost.csproj" />
+  <Project Path="ExamExamplesRepo.Domain/ExamExamplesRepo.Domain.csproj" />
+  <Project Path="ExamExamplesRepo.Infrastruture/ExamExamplesRepo.Infrastruture.csproj" />
   <Project Path="ExamExamplesRepo.ServiceDefaults/ExamExamplesRepo.ServiceDefaults.csproj" />
   <Project Path="ExamExamplesRepo/ExamExamplesRepo.csproj" />
 </Solution>
