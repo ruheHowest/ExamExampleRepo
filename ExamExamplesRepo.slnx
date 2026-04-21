@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ExamExamplesRepo.AppHost/ExamExamplesRepo.AppHost.csproj" />
+  <Project Path="ExamExamplesRepo.ServiceDefaults/ExamExamplesRepo.ServiceDefaults.csproj" />
+  <Project Path="ExamExamplesRepo/ExamExamplesRepo.csproj" />
+</Solution>
