@@ -18,6 +18,7 @@ namespace ExamExamplesRepo.Infrastruture.Repositories
         public async Task<IEnumerable<Student>> GetAllAsync(CancellationToken ct)
         {
             return await _context.Students
+                .OrderBy(s => s.StudentId)
                 .AsNoTracking()
                 .ToListAsync(ct);
         }
@@ -26,7 +27,6 @@ namespace ExamExamplesRepo.Infrastruture.Repositories
         {
             return await _context.Students
                 .Where(s => s.StudentId == id)
-                .OrderBy(s => s.StudentId)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(ct);
         }
