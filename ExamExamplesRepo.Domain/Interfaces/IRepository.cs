@@ -14,6 +14,6 @@ namespace ExamExamplesRepo.Domain.Interfaces
     public interface IStudentRepository
         : IRepository<Student>
     {
-        Task<(IEnumerable<Student> Students, int Total)> GetPagesStudentsAsync(int page, int pageSize, CancellationToken ct);
+        Task<(IEnumerable<Student> Students, int Total)> GetPagedStudentsAsync(int page, int pageSize, CancellationToken ct);
     }
 }

@@ -11,4 +11,8 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\ExamExamplesRepo.Domain\ExamExamplesRepo.Domain.csproj" />
+	</ItemGroup>
+
 </Project>
