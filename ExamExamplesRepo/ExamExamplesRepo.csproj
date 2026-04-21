@@ -4,14 +4,21 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>
+	<UserSecretsId>c87cad5c-e2a5-429b-9722-79a478aba92e</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
-	<PackageReference Include="Microsoft.EntityFrameworkCore.Design"/>
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+	<PackageReference Include="Scalar.AspNetCore" />
+	<PackageReference Include="FluentValidation.AspNetCore" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ExamExamplesRepo.Infrastruture\ExamExamplesRepo.Infrastruture.csproj" />
     <ProjectReference Include="..\ExamExamplesRepo.ServiceDefaults\ExamExamplesRepo.ServiceDefaults.csproj" />
   </ItemGroup>
 

@@ -1,7 +1,8 @@
-﻿using System;
+﻿using ExamExamplesRepo.Domain.Models;
+using System;
 using System.Collections.Generic;
 
-namespace ExamExamplesRepo.Infrastruture.Models;
+namespace ExamExamplesRepo.Domain.Models;
 
 public partial class Teacher
 {

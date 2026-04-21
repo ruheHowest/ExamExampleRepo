@@ -1,7 +1,7 @@
 ﻿using ExamExamplesRepo.Domain.Interfaces;
+using ExamExamplesRepo.Domain.Models;
 using ExamExamplesRepo.Infrastruture.Data;
 using ExamExamplesRepo.Infrastruture.Extensions;
-using ExamExamplesRepo.Infrastruture.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -10,7 +10,8 @@ namespace ExamExamplesRepo.Domain.DTOs
         IEnumerable<string> Courses
     );
 
-    public record PagedResponse<T>(IEnumerable<T> Data,
+    public record PagedResponse<T>(
+        IEnumerable<T> Data,
         int TotalCount,
         int PageNumber,
         int PageSize

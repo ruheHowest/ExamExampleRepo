@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ExamExamplesRepo.Infrastruture.Models;
+﻿namespace ExamExamplesRepo.Domain.Models;
 
 public partial class Course
 {
