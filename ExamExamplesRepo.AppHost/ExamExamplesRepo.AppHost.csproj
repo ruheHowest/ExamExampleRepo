@@ -1,4 +1,4 @@
-<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ExamExamplesRepo\ExamExamplesRepo.csproj" />
+	  
+	<PackageReference Include="Aspire.Hosting.SqlServer"/>
   </ItemGroup>
 
 </Project>

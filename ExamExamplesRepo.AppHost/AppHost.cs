@@ -1,5 +1,11 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.ExamExamplesRepo>("examexamplesrepo");
+
+var sqlServer = builder
+    .AddSqlServer("sqlserver")
+    .AddDatabase("SchoolDb", "School");
+
+var api = builder.AddProject<Projects.ExamExamplesRepo>("school-api")
+    .WithReference(sqlServer);
 
 builder.Build().Run();

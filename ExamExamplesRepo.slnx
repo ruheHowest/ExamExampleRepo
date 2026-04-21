@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path="Directory.Packages.props" />
+    <File Path="info.md" />
   </Folder>
   <Project Path="ExamExamplesRepo.AppHost/ExamExamplesRepo.AppHost.csproj" />
   <Project Path="ExamExamplesRepo.Domain/ExamExamplesRepo.Domain.csproj" />
